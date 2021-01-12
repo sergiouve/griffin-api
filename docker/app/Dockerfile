@@ -46,7 +46,7 @@ COPY vhost.conf /etc/nginx/sites-available/default
 COPY Gemfile /griffin/Gemfile
 COPY Gemfile.lock /griffin/Gemfile.lock
 
-EXPOSE 80
+EXPOSE 3000
 
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 COPY entrypoint.sh /usr/bin/entrypoint.sh
