@@ -12,4 +12,3 @@ development:
 
 test:
   <<: *default
-  database: griffin_test
